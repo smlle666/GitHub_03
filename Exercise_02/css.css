@@ -1,0 +1,30 @@
+.red {
+    width: 60%;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blue {
+    width: 60%;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.green {
+    width: 60%;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}

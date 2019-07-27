@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Таблица</title>
+        <style>
+            body { 
+                margin: 0;
+            }
+            table {
+                table-layout: fixed;
+                width: 100%;
+            }
+            #col1 {
+                height: 10%;
+                background: #FFCB50;
+            }
+            #col2 {
+                height: 55%;
+                background: #DAFF50;
+            }
+            #col3 {
+                height: 20%;
+                background: #50A2FF;
+            }
+            #col4 {
+                height: 15%;
+                background: #E0E0E0;
+            }
+        </style>
+    </head>
+    <body>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <table id="col1" cellspacing="0" cellpadding="4" border="1">
+                    <td width="50%">левый верх</td>
+                    <td width="50%">правый верх</td>
+                </table>
+            </tr>
+            <tr>
+                <table id="col2" cellspacing="0" cellpadding="4" border="1">
+                    <td>центр</td>
+                </table>
+            </tr>
+            <tr>
+                <table id="col3" cellspacing="0" cellpadding="4" border="1">
+                    <td width="33%">левый низ</td>
+                    <td>центр низ</td>
+                    <td width="33%">правый низ</td>
+                </table>
+            </tr>
+            <tr>
+                <table id="col4" cellspacing="0" cellpadding="4" border="1">
+                    <td width="25%">низ 1</td>
+                    <td width="25%">низ 2</td>
+                    <td width="25%">низ 3</td>
+                    <td width="25%">низ 4</td>
+                </table>
+            </tr>
+        </table>
+    </body>
+</html>

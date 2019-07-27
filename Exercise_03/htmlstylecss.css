@@ -1,0 +1,38 @@
+.hedder {
+    width: 90%;
+    height: 15%;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    background-color: rgb(167, 167, 167);
+    border-radius: 0px 0px 15px 15px; 
+    position: absolute;
+}
+.navbar {
+    width: 10%;
+    height: 600px;
+    background-color: rgba(167, 167, 167, 0.5);
+    position: fixed;
+    left: 0;
+    top: 15%
+}
+.center {
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    padding: 6px;
+    background-color: rgba(137, 43, 226, 0.15);
+    position: absolute;
+}
+.footter {
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    height: 15%;
+    padding: 6px;
+    border-radius: 15px 15px 0px 0px;
+    top: 85%;
+    background-color: rgb(167, 167, 167);
+    position: absolute;
+}

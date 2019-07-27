@@ -1,0 +1,77 @@
+.top {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.top div {
+    position: absolute;
+    background-color: #ffbe46;
+    width: 46.25%;
+    height: 10%;
+    display: inline-block;
+    margin: auto;
+}
+.top-left {
+    left: 2.5%;
+}
+.top-right {
+    right: 2.5%;
+}
+.center {
+    width: 95%;
+    height: 45%;
+    background-color: #e0e264;
+    position: absolute;
+    top: 15%;
+    /*margin: 2.5%;*/
+    left: 2.5%;
+    right: 2.5%;
+}
+.down {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.down div {
+    width: 30%;
+    height: 15%;
+    background-color: rgb(62, 62, 255);
+    position: absolute;
+    top: 65%;
+    display: inline-block;
+
+}
+.down1 {
+    left: 2.5%;
+}
+.down2 {
+    left: 35%;
+}
+.down3 {
+    right: 2.5%;
+}
+.ground {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.ground div {
+    width: 21.5%;
+    height: 10%;
+    background-color: rgb(165, 165, 165);
+    position: absolute;
+    top: 85%;
+    display: inline-block;
+}
+.ground1 {
+    left: 2.5%;
+}
+.ground2 {
+    left: 27%;
+}
+.ground3 {
+    right: 27%;
+}
+.ground4 {
+    right: 2.5%;
+}
